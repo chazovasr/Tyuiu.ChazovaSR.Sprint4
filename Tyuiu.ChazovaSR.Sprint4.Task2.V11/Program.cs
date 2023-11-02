@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.ChazovaSR.Sprint4.Task2.V3.Lib;
+using Tyuiu.ChazovaSR.Sprint4.Task2.V11.Lib;
 
-namespace Tyuiu.ChazovaSR.Sprint4.Task2.V3
+namespace Tyuiu.ChazovaSR.Sprint4.Task2.V11
 {
     class Program
     {
@@ -19,13 +19,13 @@ namespace Tyuiu.ChazovaSR.Sprint4.Task2.V3
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Тема:  Одномерные массивы (генератор случайных чисел)                   *");
             Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #3                                                              *");
+            Console.WriteLine("* Вариант #11                                                             *");
             Console.WriteLine("* Выполнила: Чазова Софья Романовна | ИСТНб-23-1                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                 ");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Дан одномерный целочисленный массив на 12 элементов заполненный         *");
-            Console.WriteLine("* случайными в диапазоне от 2 до 7 подсчитать сумму четных элементов.     *");
+            Console.WriteLine("* Дан одномерный целочисленный массив на 15 элементов заполненный         *");
+            Console.WriteLine("* случайными в диапазоне от 3 до 8 подсчитать сумму четных элементов.     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -37,7 +37,7 @@ namespace Tyuiu.ChazovaSR.Sprint4.Task2.V3
 
             for (int i = 0; i <= len - 1; i++)
             {
-                numsArray[i] = rnd.Next(2,8);
+                numsArray[i] = rnd.Next(3, 9);
             }
             Console.WriteLine();
             Console.WriteLine("Массив: ");
