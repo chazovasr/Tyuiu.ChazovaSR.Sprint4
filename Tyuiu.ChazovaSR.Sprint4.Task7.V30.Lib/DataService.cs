@@ -13,7 +13,7 @@ namespace Tyuiu.ChazovaSR.Sprint4.Task7.V30.Lib
         {
             int[,] mtrx = new int[n, m];
 
-            //int index = 0;
+            int index = 0;
 
             for (int i = 0; i < n; i++)
             {
